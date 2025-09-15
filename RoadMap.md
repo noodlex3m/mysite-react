@@ -53,3 +53,17 @@
 - Теорія: оптимізація, деплой, документація.
 - Завдання: закомітити все у GitHub, оновити деплой на Netlify, написати README.md з описом проєкту.
 - Результат: твоє повністю готове портфоліо на React, яке можна показувати будь-кому.
+
+---
+
+### Плюс: структура навчання і що +/- має входити в сайт - портфоліо
+
+- **Базовий стек**: Vite + React (JavaScript).
+- **React Router** → головна, "про мене", роботи, скіли (навички), контактна форма.
+- **Компоненти** → хедер, футер, карточки робіт.
+- **Хуки (useState, useEffect)** → наприклад, темна/світла тема, інтеграція з API (можна зробити навіть віджет погоди чи GitHub-репо).
+- **Деплой** → Netlify.
+- **Власний домен** → https://portofolio.serh.one/
+- **Стилізація** → CSS-модулі або просто чистий CSS (Tailwind можна відкласти на потім).
+- **Контент** → інформація про себе, навички, роботи: - https://www.work.ua/resumes/12684044/ - https://freelancehunt.com/freelancer/serh_one.html - https://www.sololearn.com/ru/profile/4700765 - https://www.freecodecamp.org/serh - https://app.netlify.com/teams/noodlex3m/projects - https://my.serh.one/ → **старе портфоліо** - https://www.facebook.com/noodlex3m/
+- старий репозиторій сайту-портфоліо `mySite` на GitHub - https://github.com/noodlex3m/mySite
