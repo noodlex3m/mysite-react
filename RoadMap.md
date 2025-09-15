@@ -66,4 +66,5 @@
 - **Власний домен** → https://portofolio.serh.one/
 - **Стилізація** → CSS-модулі або просто чистий CSS (Tailwind можна відкласти на потім).
 - **Контент** → інформація про себе, навички, роботи: - https://www.work.ua/resumes/12684044/ - https://freelancehunt.com/freelancer/serh_one.html - https://www.sololearn.com/ru/profile/4700765 - https://www.freecodecamp.org/serh - https://app.netlify.com/teams/noodlex3m/projects - https://my.serh.one/ → **старе портфоліо** - https://www.facebook.com/noodlex3m/
-- старий репозиторій сайту-портфоліо `mySite` на GitHub - https://github.com/noodlex3m/mySite
+- **Cтарий репозиторій сайту-портфоліо** → `mySite` на GitHub - https://github.com/noodlex3m/mySite
+- **Новий репозиторій сайту-портфоліо** → `mysite-react` на GitHub - https://github.com/noodlex3m/mysite-react
