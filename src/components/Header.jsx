@@ -1,13 +1,27 @@
+import React from "react";
+
 function Header() {
 	return (
-		<header>
-			<h1>Моє портфоліо</h1>
-			<nav>
-				<a href="#">Головна</a>
-				<a href="#">Про мене</a>
-				<a href="#">Мої роботи</a>
-				<a href="#">Контакти</a>
-			</nav>
+		<header className="site-header" aria-label="Головна навігація">
+			<div className="container header-inner">
+				<h1 className="logo">Сергій Тріщук</h1>
+				<nav>
+					<ul className="nav-list">
+						<li>
+							<a href="/">Головна</a>
+						</li>
+						<li>
+							<a href="#about">Про мене</a>
+						</li>
+						<li>
+							<a href="#projects">Мої роботи</a>
+						</li>
+						<li>
+							<a href="#contact">Контакти</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
 		</header>
 	);
 }
