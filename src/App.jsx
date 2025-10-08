@@ -9,7 +9,6 @@ export default function App() {
 		<Layout>
 			<Routes>
 				<Route path="/" element={<HomePage />} />
-				{/* future routes: /about, /projects, /contact */}
 			</Routes>
 		</Layout>
 	);
