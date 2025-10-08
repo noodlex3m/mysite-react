@@ -1,28 +1,26 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
 	return (
-		<header className="site-header" aria-label="Головна навігація">
-			<div className="container header-inner">
-				<h1 className="logo">Сергій Тріщук</h1>
-				<nav>
-					<ul className="nav-list">
-						<li>
-							<a href="/">Головна</a>
-						</li>
-						<li>
-							<a href="#about">Про мене</a>
-						</li>
-						<li>
-							<a href="#projects">Мої роботи</a>
-						</li>
-						<li>
-							<a href="#contact">Контакти</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
+		<header>
+			<nav>
+				<ul>
+					<li>
+						<Link to="/">Головна</Link>
+					</li>
+					<li>
+						<Link to="/about">Про мене</Link>
+					</li>
+					<li>
+						<Link to="/projects">Мої роботи</Link>
+					</li>
+					<li>
+						<Link to="/contact">Контакти</Link>
+					</li>
+				</ul>
+			</nav>
 		</header>
 	);
 }
+
 export default Header;

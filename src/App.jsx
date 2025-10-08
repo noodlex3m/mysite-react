@@ -1,17 +1,16 @@
 import React from "react";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import { Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
 import HomePage from "./pages/HomePage";
-import "./index.css";
 
-function App() {
+export default function App() {
+	console.log("App rendered");
 	return (
-		<>
-			<Header />
-			<HomePage />
-			<Footer />
-		</>
+		<Layout>
+			<Routes>
+				<Route path="/" element={<HomePage />} />
+				{/* future routes: /about, /projects, /contact */}
+			</Routes>
+		</Layout>
 	);
 }
-
-export default App;
